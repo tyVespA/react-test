@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Recoleta";
+  src: url(./fonts/Recoleta/Recoleta-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./fonts/Gilroy/Gilroy-Regular.woff) format("woff");
+}
+
+body,
+* {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* @font-face {
+  font-family: "MyFont";
+  src: local("MyFont"), url(./fonts/MyFont.woff) format("woff");
+} */
+
+body {
+  background-color: #ffffff;
+  color: #064545;
+  font-family: "Gilroy";
+}
+
+nav {
+  font-family: "Recoleta";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li > a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
